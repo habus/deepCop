@@ -43,8 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Makers\ArrayCloneMaker.cs" />
+    <Compile Include="CloneableAttribute.cs" />
+    <Compile Include="Makers\CloneMaker.cs" />
+    <Compile Include="CloneMakerFactory.cs" />
+    <Compile Include="CloningMode.cs" />
+    <Compile Include="CloningService.cs" />
+    <Compile Include="Makers\CollectionCloneMaker.cs" />
+    <Compile Include="Makers\ComplexCloneMaker.cs" />
+    <Compile Include="Makers\DeepCloneMaker.cs" />
+    <Compile Include="Makers\DefaultCloneMaker.cs" />
+    <Compile Include="ICloneMaker.cs" />
+    <Compile Include="ICloningService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Makers\StringCloneMaker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
